@@ -2,10 +2,11 @@ pipeline {
     agent any
   
     stages {
-        echo 'this is UAT branch'
+   
         stage('build') {
             steps {
                 echo '111'
+                echo 'this is UAT branch'
             }
         }
     
