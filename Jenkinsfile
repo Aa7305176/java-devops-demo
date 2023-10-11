@@ -2,6 +2,7 @@ pipeline {
     agent any
   
     stages {
+        echo 'this is master branch'
         stage('build') {
             steps {
                 echo '111'
