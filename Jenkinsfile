@@ -7,7 +7,6 @@ pipeline {
                 echo '111'
             }
         }
-    }
   
     stage('Test'){
             steps {
@@ -21,3 +20,4 @@ pipeline {
             }
         }
     }
+}
